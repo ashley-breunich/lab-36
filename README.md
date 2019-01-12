@@ -78,4 +78,4 @@ Sets: this.state.count
 * What assertions need to be / should be made?
 
 #### UML
-[Link to UML]('./assets/lab35-uml.jpg')
+[Link to UML](assets/lab35-uml.jpg)
