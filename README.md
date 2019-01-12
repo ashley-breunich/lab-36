@@ -54,21 +54,21 @@ Sets: this.state.count
 #### `components/counter/counter.js`
 ##### Exported Values and Methods
 
-###### `CLASS Counter'
+###### `CLASS Counter`
 --> SettingsContext.Consumer which wraps the context.count span
 
 
 #### `components/decrementer/decrementer.js`
 ##### Exported Values and Methods
 
-###### `CLASS Decrementer'
+###### `CLASS Decrementer`
 --> SettingsContext.Consumer which wraps the decrementer button
 
 
 #### `components/decrementer/incrementer.js`
 ##### Exported Values and Methods
 
-###### `CLASS Incrementer'
+###### `CLASS Incrementer`
 --> SettingsContext.Consumer which wraps the incrementer button
 
 
@@ -78,4 +78,4 @@ Sets: this.state.count
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+[Link to UML]('assets/lab35-uml.jpg')
