@@ -1,37 +1,76 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 36: Context
 
-### Author: Student/Group Name
+### Author: Ashley Breunich
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [github url](https://github.com/ashley-breunich/lab-36)
+* [code sandbox](https://codesandbox.io/s/13kvzxy9o4)
+* [Front End](https://13kvzxy9o4.codesandbox.io/)
 
 ### Modules
-#### `modulename.js`
+#### `index.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `CLASS Main'
+--> App Component
 
-###### `bar(array) -> array`
-Usage Notes or examples
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `app.js`
+##### Exported Values and Methods
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+###### `CLASS App'
+--> Decrementer Component
+
+--> Counter Component
+
+--> Incrementer Component
+
+
+#### `settings/counter-context.js`
+##### Exported Values and Methods
+
+###### `CLASS SettingsProvider'
+--> SettingsContext.Provider Component
+
+###### `constructor()`
+<-- props
+
+Sets the state { count, increment, decrement }
+
+###### `increment()`
+<-- event
+
+Sets: this.state.count 
+
+###### `decrement()`
+<-- event
+
+Sets: this.state.count 
+
+
+#### `components/counter/counter.js`
+##### Exported Values and Methods
+
+###### `CLASS Counter'
+--> SettingsContext.Consumer which wraps the context.count span
+
+
+#### `components/decrementer/decrementer.js`
+##### Exported Values and Methods
+
+###### `CLASS Decrementer'
+--> SettingsContext.Consumer which wraps the decrementer button
+
+
+#### `components/decrementer/incrementer.js`
+##### Exported Values and Methods
+
+###### `CLASS Incrementer'
+--> SettingsContext.Consumer which wraps the incrementer button
+
 
 #### Tests
 * How do you run tests?
