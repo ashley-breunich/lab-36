@@ -73,9 +73,7 @@ Sets: this.state.count
 
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+I asserted that the tags that are supposed to render on each component are actually recognized by the application. I am having trouble testing components that are wrapped in <SettingsContext.Consumer>. I have done a lot of reasearch on it and found a [good article](https://medium.com/@ryandrewjohnson/unit-testing-components-using-reacts-new-context-api-4a5219f4b3fe) but can't get it to work. 
 
 #### UML
 [Link to UML](assets/lab35-uml.jpg)
